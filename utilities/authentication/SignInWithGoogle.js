@@ -9,7 +9,6 @@ export async function signInUserWithGoogle () {
     this: https://firebase.google.com/docs/auth/web/google-signin */
     const provider = new GoogleAuthProvider();
 
-
     provider.addScope('https://www.googleapis.com/auth/contacts.readonly');
     // auth.languageCode = 'it';
     // To apply the default browser preference instead of explicitly setting it.
